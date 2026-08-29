@@ -1,45 +1,63 @@
-# UAE-Real-Estate-Price-Analysis
-End-to-End UAE real estate price analysis using Python, Machine Learning, and Power BI. Includes data cleaning, EDA, predictive modeling (Random Forest &amp; Linear Regression), and an interactive BI dashboard.
+# UAE Real Estate Price Analysis
 
-UAE Real Estate Price Analysis
+### Predicting Property Prices and Analyzing UAE Real Estate Trends Using Python, Machine Learning & Power BI
 
-Predicting property prices and uncovering market trends across the UAE using Python, Machine Learning, and Power BI.
-
-An end-to-end data analytics project that cleans, explores, models, and visualizes UAE real estate listing data — combining a full ML pipeline with an interactive Power BI dashboard to surface actionable pricing insights.
+An end-to-end data analytics project analyzing **492 UAE property listings** to identify the factors influencing property prices and build a predictive pricing model.
 
 ---
 
 ## 📊 Project Overview
 
-This project analyzes a dataset of 492 UAE property listings to understand what drives real estate prices and to build a predictive pricing model. It covers the full analytics lifecycle: data cleaning, exploratory data analysis, machine learning, and business intelligence reporting.
+**Business Question:**  
+What factors most influence property prices in the UAE, and can property prices be predicted using attributes such as location, size, and bedrooms?
+
+### 🔄 Project Workflow
+
+**Data Cleaning → EDA → Machine Learning → Feature Importance → Power BI Dashboard**
 
 ---
 
- ## 🔑 Key Findings
+## 🔍 What I Did
 
-- **Location is the dominant price driver** — accounting for **70.8%** of feature importance in the trained model.
-- Clear pricing patterns emerged across property size, bedroom count, and area, visualized through correlation and distribution analysis.
-- A **Random Forest** model outperformed **Linear Regression** in predictive accuracy, better capturing non-linear pricing relationships.
+### 🧹 Data Cleaning
+- Cleaned and prepared the UAE property dataset using **Python & Pandas**
+- Handled missing values
+- Standardized data formats
+
+### 📈 Exploratory Data Analysis
+- Analyzed property price distributions
+- Studied **bedroom vs. price** relationships
+- Analyzed property prices across different areas
+- Examined monthly listing trends
+- Performed correlation analysis
+- Created visualizations using **Matplotlib**
+
+### 🤖 Machine Learning
+- Built **Linear Regression** and **Random Forest** models
+- Compared model performance
+- Used feature importance to identify the major factors influencing property prices
+
+### 📊 Power BI Dashboard
+- Created an interactive **Power BI dashboard**
+- Added **4 KPI cards**
+- Created **6 charts**
+- Added **3 slicers** for interactive filtering
 
 ---
 
- 🛠️ Tools & Technologies
+## 🔑 Key Findings
 
-| Category | Tools |
-| Data Cleaning & Analysis | Python, Pandas |
-| Machine Learning | Scikit-learn (Linear Regression, Random Forest) |
-| Visualization | Matplotlib, Power BI |
-| Environment | Jupyter Notebook |
+- **Location was the dominant price driver**, accounting for **70.8% of feature importance** in the trained model.
+- Property **size, bedroom count, and area** showed clear pricing patterns.
+- **Random Forest outperformed Linear Regression** in predictive accuracy.
 
+---
 
+## 🛠️ Tools & Technologies
 
-## 🔍 Methodology
+**Python | Pandas | Scikit-learn | Matplotlib | Power BI | Jupyter Notebook**
 
-1. **Data Cleaning** (`01_data_cleaning.ipynb`) — Handled missing values, standardized formats, and prepared the raw dataset for analysis.
-2. **Exploratory Data Analysis** (`02_eda.ipynb`) — Examined price distributions, bedroom/price relationships, top-performing areas, and monthly listing trends.
-3. **Machine Learning** (`03_ml_model.ipynb`) — Trained and compared Linear Regression and Random Forest models to predict property prices, then evaluated feature importance.
-4. **Dashboard Reporting** — Built an interactive Power BI dashboard with 6 charts, 4 KPI cards, and 3 slicers for business-friendly exploration of the findings.
+## Author
 
-
-
-
+Aneesa
+Data Analyst | SQL · Power BI · Python
