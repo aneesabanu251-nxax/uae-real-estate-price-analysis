@@ -15,7 +15,7 @@ This project analyzes a dataset of 492 UAE property listings to understand what 
 
 ---
 
- 🔑 Key Findings
+ ## 🔑 Key Findings
 
 - **Location is the dominant price driver** — accounting for **70.8%** of feature importance in the trained model.
 - Clear pricing patterns emerged across property size, bedroom count, and area, visualized through correlation and distribution analysis.
