@@ -33,5 +33,13 @@ This project analyzes a dataset of 492 UAE property listings to understand what 
 
 
 
+## 🔍 Methodology
+
+1. **Data Cleaning** (`01_data_cleaning.ipynb`) — Handled missing values, standardized formats, and prepared the raw dataset for analysis.
+2. **Exploratory Data Analysis** (`02_eda.ipynb`) — Examined price distributions, bedroom/price relationships, top-performing areas, and monthly listing trends.
+3. **Machine Learning** (`03_ml_model.ipynb`) — Trained and compared Linear Regression and Random Forest models to predict property prices, then evaluated feature importance.
+4. **Dashboard Reporting** — Built an interactive Power BI dashboard with 6 charts, 4 KPI cards, and 3 slicers for business-friendly exploration of the findings.
+
+
 
 
