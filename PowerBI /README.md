@@ -32,5 +32,4 @@ The dashboard analyzes 492 property listings across 66 areas in the UAE.
 ## Tools Used
 
 - Power BI
-- DAX
-- Power Query
+
