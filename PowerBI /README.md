@@ -27,7 +27,6 @@ The dashboard analyzes 492 property listings across 66 areas in the UAE.
 - Price
 - Year
 - Area
-- Bedroom
 
 ## Tools Used
 
